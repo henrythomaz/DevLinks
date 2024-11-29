@@ -38,7 +38,8 @@ body *{
   color: var(--text-color);
 }
 #container{
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   /*   margin-right: auto;
   margin-left: auto; 
   
@@ -48,7 +49,7 @@ body *{
 }
 #profile{
   text-align: center;
-  padding: 24px;
+  padding: 20px;
 }
 #profile img{
   width: 112px;
