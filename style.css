@@ -32,6 +32,7 @@ body {
   /* backgound: color image repeat position/size */
 
   background: var(--background-image) no-repeat top center/cover;
+  height: 100vh;
 }
 body *{
   font-family: 'Inter', sans-serif;
@@ -78,7 +79,6 @@ body *{
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
-  transition: all 0.5s;
 }
 .light #switch button{
   right: 0;
@@ -151,4 +151,13 @@ footer{
   text-align: center;
   color: rgba(255, 255, 255, 0.9);
   font-size: 14px;
+}
+
+@media (min-width: 700px) {
+  :root{
+      --background-image: url(assets/bg-desktop.jpg);
+  }
+  .light{
+      --background-image: url(assets/bg-desktop-light.jpg);
+  }
 }
