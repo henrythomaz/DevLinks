@@ -5,10 +5,10 @@ function toggleMode() {
 
 
   if(html.classList.contains("light")) {
-    img.setAttribute("src", "assets/assets/avatar-light.png")
+    img.setAttribute("src", "assets/avatar-light.png")
     img.setAttribute("alt", "avatar")
     }else{
-    img.setAttribute("src", "assets/assets/avatar.png")
+    img.setAttribute("src", "assets/avatar.png")
         img.setAttribute("alt", "avatar-light")
   }
 }
